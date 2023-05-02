@@ -1,0 +1,122 @@
+body {
+    background-color: #eaeaea;
+      margin: 0 20%;
+      font-family: 16px/28px Arial, Helvetica, sans-serif;
+      color: #8b602f;
+  }
+
+  .container{
+    width : 880px;
+    margin:auto;
+    background-color: white;
+  }
+
+  .header {
+    padding : 20px;
+  }
+
+  .header.judul {
+    font-size: 40px;
+  }
+
+  .header ul li {
+      font-family: sans-serif;
+      display: inline-block;
+      padding: 25px;
+      position: relative;
+      margin-left: 20px;
+      margin-top: 8px;
+  }
+
+  .header a {
+    text-decoration: none;
+    color : seagreen;
+    padding : 3px;
+  }
+
+  .header a:hover{
+   background-color: rgb(8, 54, 65); 
+   color: rgb(113, 173, 155);
+  }
+
+  .gambar1{
+    height: 350px;    
+    background-image:url('mgl.jpg');
+    background-size: cover;
+    background-position: 5-160px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  .content h2{
+    font-size:20px;
+    font-weight:bold;
+  }
+
+  .content .penulis {
+    font-size: 11px;
+    margin-top:-5px ;
+
+  }
+
+  .gambar2{
+    height: 350px;    
+    background-image:url('punthuk setumbu.jpg');
+    background-size: cover;
+    background-position: 0-100px;
+  }
+
+  .gambar3{
+    height: 350px;    
+    background-image:url('g andong.jpg');
+    background-size: cover;
+    background-position: 0-100px;
+  }
+
+  .gambar4{
+    height: 350px;    
+    background-image:url('kedung\ kayang.jpg');
+    background-size: cover;
+    background-position: 0-100px;
+  }
+
+  .gambar5{
+    height: 350px;    
+    background-image:url('alun2mgl.jpg');
+    background-size: cover;
+    background-position: 0-100px;
+  }
+
+  .gambar6{
+    height: 350px;    
+    background-image:url('candi\ umbul.webp');
+    background-size: cover;
+    background-position: 0-100px;
+  }
+
+  .gambar7{
+    height: 350px;    
+    background-image:url('candi\ borobudur.jpg');
+    background-size: cover;
+    background-position: 0-70px;
+  }
+
+  body {
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    background: rgba(255,255,225, 0.5);
+  }
+
+  article {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+  }
